@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding-top: 46px;
+}
+
+.hero-image {
+  background-image: url("./../img/hero.jpg");
+  height: 40vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.carrousel img {
+  width: 30%;
+  margin-bottom: 4%;
+}
+
+@media (max-width: 500px) {
+  .carrousel img {
+    width: 100%;
+  }
+}
